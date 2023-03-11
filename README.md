@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/44780846/158746414-19a6833f-84e8-4f1e-8b58-885f6ffeaea3.png" alt="serizawa">
+  <img src="https://user-images.githubusercontent.com/58055542/224464370-dbcf15d0-d3b3-4f0a-97e2-6a1e9f15f44d.png" alt="serizawa">
 </p>
+
 
 ## Немного обо всём
 
