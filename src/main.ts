@@ -161,7 +161,7 @@ ipcMain.handle("remove-cache", async (): Promise<void> => {
     type: "question",
     buttons: ["Да", "Нет"],
     defaultId: 0,
-    title: "Подтверждение",
+    title: "Вы уверены?",
     message: "Очистить кэш?"
   });
 
@@ -172,7 +172,7 @@ ipcMain.handle("remove-cache", async (): Promise<void> => {
   browser.showMessageDialog({
     type: "info",
     title: "Успех",
-    message: "Отчистка завершена"
+    message: "Очистка завершена"
   });
 });
 
@@ -182,9 +182,9 @@ ipcMain.handle("remove-cookie", async (): Promise<void> => {
     type: "question",
     buttons: ["Да", "Нет"],
     defaultId: 1,
-    title: "Внимание!",
-    message: "Вы хотите выйти из аккаунта?",
-    detail: "Ваш аккаунт может быть не восстановим восстановлен."
+    title: "Опасно!",
+    message: "Вы уверены, что хотите выйти из своей учетной записи?",
+    detail: "Ваша учетная запись не может быть восстановлена."
   });
 
   if (result !== 0) return;
@@ -207,7 +207,7 @@ ipcMain.handle("remove-cookie", async (): Promise<void> => {
   browser.showMessageDialog({
     type: "info",
     title: "Успех",
-    message: "Выход из аккаунта завершен",
+    message: "Вы успешно вышли из учётной записи",
     detail: "Закройте приложение."
   });
 
