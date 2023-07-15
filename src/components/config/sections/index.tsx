@@ -26,8 +26,8 @@ const Sections = ({ toggleProgress }: Props): JSX.Element => {
       }
     },
     {
-      title: "Управление аккаунтом",
-      btnText: "Выйти из аккаунта",
+      title: "Управление учётной записью",
+      btnText: "Выйти из учётной записи",
       btnBg: "bg-red-400",
       btnHoverBg: "bg-red-600",
       onClick: () => {
