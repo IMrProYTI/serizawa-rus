@@ -31,7 +31,7 @@ export class Browser {
     };
 
     return {
-      title: "serizawa",
+      title: "serizawa-rus",
       ...windowSize,
       minWidth: windowSize.width,
       minHeight: windowSize.height,
@@ -140,9 +140,9 @@ export class Browser {
         buttons: ["Хорошо"],
         defaultId: 0,
         title: "Ошибка",
-        message: "Заблокированны всплывающие окна",
+        message: "Заблокированы всплывающие окна",
         detail:
-          "Страница не отвечает, пожалуйста, перезагрузите её с помощью кнопки перезагрузки справа вверху"
+          "Страница не отвечает, перезагрузите ее с помощью кнопки перезагрузки в правом верхнем углу"
       });
     };
 
